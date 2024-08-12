@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
-import { FloatingNav } from "@/components/ui/FloatingNav";
+import Grid from "@/components/Grid";
 
+import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
           { name: "Home", link: "/", icon: <FaHome/> },
         ]} />
         <Hero />
+        <Grid />
       </div>
     </main>
   )
