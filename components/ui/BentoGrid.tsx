@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import { BackgroundGradientAnimation } from "@/components/ui/GradientBg";
 import GridGlobe from "@/components/ui/GridGlobe";
 
+
 export const BentoGrid = ({
                             className,
                             children,
